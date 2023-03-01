@@ -1,15 +1,30 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-
+import Student from './components/Student';
 function App() {
-  let name = "Santu De"
+ 
   return (
-    <>
-    <Header />
-      <h1>{name}</h1>
-    <Footer />
-    </>
+    <div className="App">
+      <Student 
+        name = "Santu De"
+        mobile ={ 7029481930}
+      />
+
+      <Student 
+        name = "Souvik De"
+        mobile ={ 8348510556}
+      />
+
+      <Student 
+        name = "Santu De"
+        mobile ={ 7029481930}
+      />
+
+      <Student 
+        name = "Souvik De"
+        mobile ={ 8348510556}
+      />
+
+    </div>
   );
 }
 

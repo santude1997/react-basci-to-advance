@@ -1,12 +1,14 @@
 import './App.css';
-import {Header,Footer} from './Header';
+import Footer from './components/Footer';
+import Header from './components/Header';
+
 function App() {
   let name = "Santu De"
   return (
     <>
-    <Header/>
+    <Header />
       <h1>{name}</h1>
-    <Footer/>
+    <Footer />
     </>
   );
 }
